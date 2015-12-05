@@ -3,6 +3,18 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ .how-help h3{
+   margin-bottom: 1em;
+ }
+
+ .how-help li {
+   font-size: 1.5em;
+   margin: 2em;
+ }
+ .fa-yellow {
+   color: yellow;
+ }
+
 
 body {
     overflow-x: hidden;
@@ -333,7 +345,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    /*margin-bottom: 75px;*/
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -341,11 +353,11 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
     section {
-        padding: 150px 0;
-    }
-}
+        /*padding: 150px 0;*/
+    /*}
+}*/
 
 .service-heading {
     margin: 15px 0;
